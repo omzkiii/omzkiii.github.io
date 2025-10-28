@@ -2,6 +2,8 @@
   --rose-red: #cb201c;
   --noir-black: #1b1716;
   --cotton-white: #fdf6f0;
+
+  font-size: clamp(1.2rem, 2vw + 1rem, 3rem);
 }
 
 body {

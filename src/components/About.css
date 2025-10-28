@@ -1,0 +1,88 @@
+#about {
+  background-color: var(--cotton-white);
+  display: flex;
+  /* flex-direction: column; */
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+#portrait {
+  padding-left: 60vw;
+  width: 30vw;
+  object-fit: cover;
+  object-position: center top;
+  filter: grayscale();
+}
+
+#intro {
+  top: 20vh;
+  color: var(--rose-red);
+  mix-blend-mode: multiply;
+  position: absolute;
+  font-size: 2rem;
+  font-family: "Urbanist", sans-serif;
+  z-index: 1;
+  mix-blend-mode: multiply;
+}
+#intro a {
+  padding-left: 10vw;
+}
+
+#intro-box {
+  font-family: "Urbanist", sans-serif;
+  font-size: 0.7rem;
+  padding: 1vh 10vw;
+  width: clamp(40vw, 40vw, 100vw);
+  text-align: justify;
+  color: var(--cotton-white);
+}
+
+#red-box {
+  width: 100vw;
+  background-color: var(--rose-red);
+}
+
+#links {
+  width: 80vw;
+  position: absolute;
+  bottom: 0vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  background-color: var(--rose-red);
+  color: var(--noir-black);
+  font-family: "Urbanist", sans-serif;
+  font-size: 0.7rem;
+
+  padding: 5vh 10vw;
+}
+
+#links div {
+  display: flex;
+}
+
+#links img {
+  width: 1rem;
+}
+
+#links a {
+  padding: 0.5vw;
+}
+
+@media (max-width: 1230px) {
+  #portrait {
+    padding-left: 0vw;
+    width: 100vw;
+    height: 30vh;
+  }
+  #intro {
+    top: 30vh;
+    mix-blend-mode: normal;
+  }
+  #intro-box {
+    width: 80vw;
+  }
+}
