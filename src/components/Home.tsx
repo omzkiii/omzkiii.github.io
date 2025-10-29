@@ -3,7 +3,10 @@ import "./Home.css";
 function Home() {
   return (
     <>
-      <div id="home">
+      <div id="home" className="page">
+        <div id="test">
+          <div>+++++++++++++++++++++++++++</div>
+        </div>
         <div id="home-container">
           <nav>
             <a>About</a>

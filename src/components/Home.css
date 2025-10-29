@@ -1,11 +1,23 @@
-#home {
-  background-color: var(--cotton-white);
+#test {
   display: flex;
-  padding: 0px;
-  margin: 0px;
-  height: 100vh;
-  width: 100vw;
+  position: absolute;
+  animation: movement 5s infinite linear;
+  white-space: nowrap;
+  top: 5vh;
 }
+#test div {
+  background-color: var(--rose-red);
+  display: inline-block;
+}
+@keyframes movement {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
+
 #home-container {
   display: flex;
   flex-direction: column;

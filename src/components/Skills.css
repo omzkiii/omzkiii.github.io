@@ -1,0 +1,27 @@
+#skills {
+  font-family: "Urbanist" sans-serif;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+
+#skill-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 0.5rem;
+  padding: 2vw;
+  /* flex-wrap: wrap; */
+}
+.skill-card {
+  padding: 4vw;
+}
+
+.skill-header {
+  font-size: 1rem;
+}
+
+#skills p {
+  line-height: 0;
+  padding: 0px;
+}

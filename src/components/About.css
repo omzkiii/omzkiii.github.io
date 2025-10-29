@@ -1,11 +1,4 @@
 #about {
-  background-color: var(--cotton-white);
-  display: flex;
-  /* flex-direction: column; */
-  padding: 0px;
-  margin: 0px;
-  height: 100vh;
-  width: 100vw;
   position: relative;
 }
 #portrait {
@@ -51,13 +44,13 @@
   display: flex;
   justify-content: center;
   align-items: start;
-  flex-direction: column;
+  /* flex-direction: column; */
   background-color: var(--rose-red);
   color: var(--noir-black);
   font-family: "Urbanist", sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
 
-  padding: 5vh 10vw;
+  padding: 0.5vh 10vw;
 }
 
 #links div {
@@ -69,7 +62,7 @@
 }
 
 #links a {
-  padding: 0.5vw;
+  padding: 0.5vh;
 }
 
 @media (max-width: 1230px) {

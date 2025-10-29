@@ -7,7 +7,7 @@ import linkedin from "../assets/linkedin.svg";
 function About() {
   return (
     <>
-      <div id="about">
+      <div id="about" className="page">
         <div id="intro">
           <a>Hi, I'm Geo!</a>
           <div id="red-box">
@@ -21,18 +21,24 @@ function About() {
         </div>
         <img id="portrait" src={portrait} />
         <div id="links">
-          <div>
-            <img src={github} />
-            <a>github.com/omzkiii</a>
-          </div>
-          <div>
-            <img src={linkedin} />
-            <a>geomar-santos-4056a7129</a>
-          </div>
-          <div>
-            <img src={gmail} />
-            <a>geogeomarsantos@gmail.com</a>
-          </div>
+          <a href="https://github.com/omzkiii" target="_blank">
+            <div>
+              <img src={github} />
+              <a>github.com/omzkiii</a>
+            </div>
+          </a>
+          <a>
+            <div>
+              <img src={linkedin} />
+              <a>geomar-santos-4056a7129</a>
+            </div>
+          </a>
+          <a>
+            <div>
+              <img src={gmail} />
+              <a>geogeomarsantos@gmail.com</a>
+            </div>
+          </a>
         </div>
       </div>
     </>

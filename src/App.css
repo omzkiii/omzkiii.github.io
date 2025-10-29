@@ -5,8 +5,33 @@
 
   font-size: clamp(1.2rem, 2vw + 1rem, 3rem);
 }
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  user-select: none;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
 
 body {
   margin: 0;
   padding: 0;
+}
+
+.page {
+  position: relative;
+  scroll-snap-align: start;
+  background-color: var(--cotton-white);
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  transition: all 0.3s ease;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
