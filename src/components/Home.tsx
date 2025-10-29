@@ -9,8 +9,8 @@ function Home() {
         </div>
         <div id="home-container">
           <nav>
-            <a>About</a>
-            <a>Skills</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
             <a>Projects</a>
           </nav>
           <div>

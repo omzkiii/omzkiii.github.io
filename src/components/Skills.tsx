@@ -4,7 +4,10 @@ function Skills() {
   return (
     <>
       <div id="skills" className="page">
-        <div id="title">Skills</div>
+        <div id="title">
+          {/* Skills */}
+          <div>Skills</div>
+        </div>
         <div id="skill-list">
           <div className="skill-card">
             <div className="skill-header">Development</div>
@@ -30,19 +33,19 @@ function Skills() {
             Flutter <br />
           </div>
           <div className="skill-card">
+            <div className="skill-header">Database</div>
+            PostgreSQL <br />
+            SQLite <br />
+            PostGIS <br />
+            MongoDB <br />
+          </div>
+          <div className="skill-card">
             <div className="skill-header">Tools</div>
             Git <br />
             Github <br />
             Docker <br />
             Linux <br />
             REST APIs <br />
-          </div>
-          <div className="skill-card">
-            <div className="skill-header">Database</div>
-            PostgreSQL <br />
-            SQLite <br />
-            PostGIS <br />
-            MongoDB <br />
           </div>
         </div>
       </div>

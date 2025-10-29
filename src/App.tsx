@@ -9,6 +9,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <div className="page"></div>
     </>
   );
 }

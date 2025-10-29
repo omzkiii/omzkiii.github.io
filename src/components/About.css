@@ -65,7 +65,7 @@
   padding: 0.5vh;
 }
 
-@media (max-width: 1230px) {
+@media (max-width: 900px) {
   #portrait {
     padding-left: 0vw;
     width: 100vw;
@@ -77,5 +77,9 @@
   }
   #intro-box {
     width: 80vw;
+  }
+  #links {
+    justify-content: start;
+    flex-direction: column;
   }
 }

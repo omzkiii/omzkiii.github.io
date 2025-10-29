@@ -1,27 +1,53 @@
 #skills {
-  font-family: "Urbanist" sans-serif;
+  font-family: "Rethink Sans", sans-serif;
   font-weight: 800;
   display: flex;
   flex-direction: column;
-  font-size: 2rem;
+  font-size: 4rem;
+  background-color: var(--noir-black);
+}
+
+#title {
+  background-color: var(--rose-red);
+  color: var(--noir-black);
+  padding: 0vi;
+
+  font-style: italic;
+  padding-top: 10vh;
+  padding-left: 10vw;
+}
+#title div {
+  line-height: 0.5;
 }
 
 #skill-list {
+  color: var(--cotton-white);
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   font-size: 0.5rem;
-  padding: 2vw;
+
+  padding: 10vw;
+  /* padding: 2vw; */
   /* flex-wrap: wrap; */
 }
 .skill-card {
-  padding: 4vw;
+  padding: 2vw;
+
+  font-weight: 200;
 }
 
 .skill-header {
+  font-weight: 800;
   font-size: 1rem;
 }
 
 #skills p {
   line-height: 0;
   padding: 0px;
+}
+
+@media (max-width: 1230px) {
+  #skill-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
